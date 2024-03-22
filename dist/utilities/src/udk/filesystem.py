@@ -23,14 +23,9 @@ class filesystem:
         except Exception as e:
             print(error, e)
     def create(file, error="An Error occured:"):
-        pass
-class tools:
-    def editor(file):
-        # Simple Text editor
-        with open(file, "a") as file:
-            while True:
-                line = input()
-                if line.startswith(":q"):
-                    break
-                else:
-                    file.write(line+'\n')
+        # create a file
+        try:
+            with open(file, "x") as file:
+                file.close()
+        except FileExistsError:
+            print(error, FileExistsError)

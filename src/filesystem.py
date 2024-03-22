@@ -23,4 +23,9 @@ class filesystem:
         except Exception as e:
             print(error, e)
     def create(file, error="An Error occured:"):
-        pass
+        # create a file
+        try:
+            with open(file, "x") as file:
+                file.close()
+        except FileExistsError:
+            print(error, FileExistsError)

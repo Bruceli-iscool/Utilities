@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: udk
+Version: 0.0.2
+Summary: A collection of tools
+Author-email: Johniscool76 <isanoob1897@outlook.com>
+Project-URL: Homepage, https://github.com/Bruceli-iscool/Utilities
+Project-URL: Issues, https://github.com/Bruceli-iscool/Utilities/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Utilities
+A collection of easy to use tools. The udk is the development kit for Utilities.

@@ -1,7 +1,6 @@
 # Filesystem
 
     from udk import filesystem
-
 Filesystem is a collection of file operations. For example `mov`:
 
     # Moves a file
