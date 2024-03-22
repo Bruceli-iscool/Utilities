@@ -1,3 +1,3 @@
-from udk import udk
+from udk import tools
 
-udk.tools.editor("C:/Users/isano/OneDrive/Documents\GitHub/v2/Utilities/src/test.pyu")
+tools.editor("C:/Users/isano/OneDrive/Documents\GitHub/v2/Utilities/src/test.pyu")
