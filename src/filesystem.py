@@ -22,3 +22,5 @@ class filesystem:
                     print(line)
         except Exception as e:
             print(error, e)
+    def create(file, error="An Error occured:"):
+        pass

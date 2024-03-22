@@ -12,3 +12,7 @@ The `rem` function deletes a file:
 The `see` function prints file contents:
 
     filesystem.see("/path/to/file", "Error message (optional)")
+
+The `create` function creates an new text file:
+
+    filesystem.create("/path/to/file", "Error message (optional)")
