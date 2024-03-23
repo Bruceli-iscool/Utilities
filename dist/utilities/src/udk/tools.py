@@ -8,5 +8,3 @@ class tools:
                     break
                 else:
                     file.write(line+'\n')
-
-tools.editor()
