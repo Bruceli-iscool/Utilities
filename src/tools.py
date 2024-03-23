@@ -1,5 +1,5 @@
-class tools:
-    def editor(file):
+
+def editor(file):
         # Simple Text editor
         with open(file, "a") as file:
             while True:
@@ -8,5 +8,3 @@ class tools:
                     break
                 else:
                     file.write(line+'\n')
-
-tools.editor()

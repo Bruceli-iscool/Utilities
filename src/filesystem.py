@@ -1,20 +1,18 @@
 import shutil
 import os
-
-class filesystem:
-    def mov(file, dest, error="An Error occured:"):
+def mov(file, dest, error="An Error occured:"):
         # Move a file
         try:
             shutil.move(file, dest)
         except FileNotFoundError as e:
             print(error, e)
-    def rem(file, error="An Error occured:"):
+def rem(file, error="An Error occured:"):
         # Delete a file
         try:
             os.remove(file)
         except FileNotFoundError as e:
             print(error, e)
-    def see(file, error="An Error occured:"):
+def see(file, error="An Error occured:"):
         # view a file
         try:
             with open(file) as file:
@@ -22,7 +20,7 @@ class filesystem:
                     print(line)
         except Exception as e:
             print(error, e)
-    def create(file, error="An Error occured:"):
+def create(file, error="An Error occured:"):
         # create a file
         try:
             with open(file, "x") as file:
