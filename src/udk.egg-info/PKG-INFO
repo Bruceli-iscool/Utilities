@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: udk
-Version: 0.0.4
+Version: 0.0.5
 Summary: A collection of tools
 Author-email: Johniscool76 <isanoob1897@outlook.com>
 Project-URL: Homepage, https://github.com/Bruceli-iscool/Utilities
@@ -12,4 +12,6 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 
 # Utilities
-A collection of easy to use tools. The udk is the development kit for Utilities.
+
+A collection of easy to use tools. This is available as a Python module as the Utilities Developer Kit (udk) or as standalone apps.
+To use in python `pip install udk`.

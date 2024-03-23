@@ -4,14 +4,14 @@
 Filesystem is a collection of file operations. For example `mov`:
 
     # Moves a file
-    filesystem.filesystem.mov("/path/to/file", "/path/to/destination", "Error message (optional)")
+    filesystem.mov("/path/to/file", "/path/to/destination", "Error message (optional)")
 The `rem` function deletes a file:
 
-    filesystem.filesystem.rem("/path/to/file", "Error message (optional)")
+    filesystem.rem("/path/to/file", "Error message (optional)")
 The `see` function prints file contents:
 
-    filesystem.filesystem.see("/path/to/file", "Error message (optional)")
+    filesystem.see("/path/to/file", "Error message (optional)")
 
 The `create` function creates an new text file:
 
-    filesystem.filesystem.create("/path/to/file", "Error message (optional)")
+    filesystem.create("/path/to/file", "Error message (optional)")
