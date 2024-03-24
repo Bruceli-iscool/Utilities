@@ -1,9 +1,9 @@
 LICENSE
 README.md
 pyproject.toml
-src/filesystem.py
-src/test.py
-src/tools.py
+src/udk/filesystem.py
+src/udk/tools.py
+src/udk/zip.py
 src/udk.egg-info/PKG-INFO
 src/udk.egg-info/SOURCES.txt
 src/udk.egg-info/dependency_links.txt
